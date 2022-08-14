@@ -72,3 +72,19 @@
 .section__img__content3{
     width: 300px;
 }
+
+/* table css */
+table{
+    width: 98%;
+    margin: 0.5rem;
+    margin: auto;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table:nth-child(even){
+    background: #eee;
+}
+
